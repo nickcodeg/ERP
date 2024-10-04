@@ -12,7 +12,7 @@ const App = () => {
 			<div className='w-1/6 h-[96vh] m-2'>
 				<Navbar activePage={activePage} setActivePage={setActivePage} />
 			</div>
-			<div className='h-[96vh] w-full m-2'>
+			<div className='w-full h-[96vh] m-2 text-center'>
 				{activePage === 'dashboard' && <Dashboard />}
 				{activePage === 'transaction' && <Transaction />}
 				{activePage === 'report' && <Reports />}
